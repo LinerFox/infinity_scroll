@@ -5,14 +5,13 @@ body {
   margin: 0;
   font-family: "Bebas Neue", cursive;
   background: whitesmoke;
-  font-size: 16px;
 }
 
 h1 {
   text-align: center;
-  margin-top: 1.5rem;
-  margin-bottom: 1rem;
-  font-size: 3rem;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  font-size: 40px;
   letter-spacing: 4px;
 }
 
@@ -31,4 +30,25 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* Image Container */
+.image_container {
+  margin: 10px 30%;
+}
+
+.image_container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Media Query: Large Smartphone */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+  .image_container {
+    margin: 10px;
+  }
 }
